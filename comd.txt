@@ -1,0 +1,16 @@
+ver2
+
+add indicatior 4 Relay
+Connect/ Disconnect indicatior
+
+Ver3
+Add ADS
+
+
+main.py
+
+only change name
+
+pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard.ui;." --add-data "psw.ico;." main.py
+
+
