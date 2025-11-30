@@ -14,3 +14,16 @@ only change name
 pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard.ui;." --add-data "psw.ico;." main.py
 
 
+
+
+Ver4 
+Add B8M 
+
+pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_1.ui;." --add-data "psw.ico;." Ver4.py
+
+
+Ver5 
+Add B16M
+OK
+pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;." --add-data "psw.ico;." ver5.py
+
