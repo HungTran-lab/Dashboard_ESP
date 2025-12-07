@@ -27,3 +27,29 @@ Add B16M
 OK
 pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;." --add-data "psw.ico;." ver5.py
 
+
+
+Ver 6
+
+Add Select board /6/12/2025
+--> Done.
+Ngon rui
+
+
+//-------------------------------Upgrade---------------------------------
+Ver 7: 
+ Tách lớp Serial / Logic ra khỏi UI
+ hiện chỉ 1 classs--> Tach UART thành 1 classs rieng : Total la 2
+  --> OK
++ Khóa UI khi chua Connect-----------OK
++ Deleay 100ms khi nhấn R de khỏi nghẽn-----------meo biet
++ Mất kết nối --> Disconnect/ Disable control--------OK
++ Add show About ---> OK
+
+pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;." --add-data "psw.ico;." ver7.py
+
+//----------------------------------RS485---------------------------------
+
+Ver8
+ + Add RS485
+ pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;." --add-data "psw.ico;." ver8.py
