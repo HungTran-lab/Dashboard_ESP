@@ -53,3 +53,20 @@ pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;."
 Ver8
  + Add RS485
  pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;." --add-data "psw.ico;." ver8.py
+
+
+Ver9. 4/Feb
+
+Add FET
+FET ON/ FET ON-------OK
++ Add insert name --GUI
+
+pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;." --add-data "psw.ico;." ver9.py
+
+
+
+Ver10------------Claude
+  Improve các issue cua GPT
+
+  pyinstaller --noconsole --onefile --icon "psw.ico" --add-data "dashboard_2.ui;." --add-data "psw.ico;." Ver11.py
+  
